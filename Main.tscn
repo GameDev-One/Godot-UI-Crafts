@@ -1,0 +1,89 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://DefaultFontHeader.tres" type="DynamicFont" id=2]
+[ext_resource path="res://DefaultFontNormal.tres" type="DynamicFont" id=3]
+
+[node name="Main" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Bg" type="Panel" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ReferenceContainer" type="HBoxContainer" parent="Bg"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 25.0
+margin_top = 25.0
+margin_right = -25.0
+margin_bottom = -25.0
+custom_constants/separation = 25
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ReferenceSubContainer" type="VBoxContainer" parent="Bg/ReferenceContainer"]
+margin_right = 460.0
+margin_bottom = 550.0
+size_flags_horizontal = 3
+
+[node name="Title" type="Label" parent="Bg/ReferenceContainer/ReferenceSubContainer"]
+margin_right = 460.0
+margin_bottom = 60.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_fonts/font = ExtResource( 2 )
+text = "Card UI Reference"
+align = 1
+valign = 1
+autowrap = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Contents" type="Label" parent="Bg/ReferenceContainer/ReferenceSubContainer"]
+margin_top = 64.0
+margin_right = 460.0
+margin_bottom = 244.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+size_flags_stretch_ratio = 3.0
+custom_fonts/font = ExtResource( 3 )
+text = "Card displays title then will show contents thru sliding animation when hovered over or interacted with."
+align = 1
+valign = 1
+autowrap = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Video" type="VideoPlayer" parent="Bg/ReferenceContainer/ReferenceSubContainer"]
+margin_top = 248.0
+margin_right = 460.0
+margin_bottom = 550.0
+rect_min_size = Vector2( 300, 0 )
+size_flags_horizontal = 7
+size_flags_vertical = 3
+size_flags_stretch_ratio = 5.0
+autoplay = true
+
+[node name="Separator" type="VSeparator" parent="Bg/ReferenceContainer"]
+modulate = Color( 0, 0, 0, 1 )
+margin_left = 485.0
+margin_right = 489.0
+margin_bottom = 550.0
+
+[node name="StartHere" type="Control" parent="Bg/ReferenceContainer"]
+margin_left = 514.0
+margin_right = 974.0
+margin_bottom = 550.0
+mouse_filter = 1
+size_flags_horizontal = 3
+size_flags_vertical = 3
