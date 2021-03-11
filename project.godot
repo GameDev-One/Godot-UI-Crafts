@@ -19,3 +19,7 @@ config/name="TimeCrafts"
 run/main_scene="res://Main.tscn"
 boot_splash/image="res://SpellBook.png"
 config/icon="res://SpellBook.png"
+
+[debug]
+
+gdscript/warnings/return_value_discarded=false
