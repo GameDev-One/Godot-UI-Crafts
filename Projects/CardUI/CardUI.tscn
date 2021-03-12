@@ -111,7 +111,25 @@ rect_min_size = Vector2( 400, 400 )
 flat = true
 script = ExtResource( 3 )
 __meta__ = {
-"_edit_use_anchors_": false
+"_edit_use_anchors_": false,
+"_editor_description_": "CardUI
+-----
+DESCRIPTION
+Card displays title then will show contents thru sliding animation when hovered over or interacted with.
+-----
+SIGNALS
+See 'Button' in Godot Documentation for a list of all signals.
+-----
+ENUMERATIONS
+See 'Button' in Godot Documentation for a list of all enumerations.
+-----
+CONSTANTS
+See 'Button' in Godot Documentation for a list of all constants.
+-----
+PROPERTY DESCRIPTION
+(String) title_text:
+(String) content_text:
+-----"
 }
 
 [node name="RightTransition" type="ColorRect" parent="."]
@@ -148,7 +166,7 @@ __meta__ = {
 
 [node name="Title" type="Label" parent="VBoxContainer"]
 margin_right = 400.0
-margin_bottom = 132.0
+margin_bottom = 181.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_fonts/font = ExtResource( 1 )
@@ -161,7 +179,7 @@ autowrap = true
 
 [node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer"]
 modulate = Color( 1, 1, 1, 0 )
-margin_top = 136.0
+margin_top = 185.0
 margin_right = 400.0
 margin_bottom = 400.0
 mouse_filter = 2
@@ -172,7 +190,7 @@ size_flags_stretch_ratio = 2.0
 [node name="VLine" type="VSeparator" parent="VBoxContainer/HBoxContainer"]
 modulate = Color( 0, 0, 0, 1 )
 margin_right = 39.0
-margin_bottom = 264.0
+margin_bottom = 215.0
 mouse_filter = 2
 size_flags_horizontal = 3
 size_flags_vertical = 3
@@ -180,7 +198,7 @@ size_flags_vertical = 3
 [node name="Contents" type="RichTextLabel" parent="VBoxContainer/HBoxContainer"]
 margin_left = 71.0
 margin_right = 371.0
-margin_bottom = 264.0
+margin_bottom = 215.0
 rect_min_size = Vector2( 300, 0 )
 mouse_filter = 2
 size_flags_horizontal = 6
