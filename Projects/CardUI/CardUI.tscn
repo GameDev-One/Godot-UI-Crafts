@@ -2,7 +2,7 @@
 
 [ext_resource path="res://DefaultFontHeader.tres" type="DynamicFont" id=1]
 [ext_resource path="res://DefaultFontNormal.tres" type="DynamicFont" id=2]
-[ext_resource path="res://Projects/CardUI/CardUI.gd" type="Script" id=3]
+[ext_resource path="res://Projects/CardUI/card_ui.gd" type="Script" id=3]
 
 [sub_resource type="Animation" id=1]
 resource_name = "hover"
@@ -127,8 +127,8 @@ CONSTANTS
 See 'Button' in Godot Documentation for a list of all constants.
 -----
 PROPERTY DESCRIPTION
-(String) title_text:
-(String) content_text:
+(String) title_text: Text displayed for the title.
+(String) content_text: Text displayed when the card is interacted with.
 -----"
 }
 
