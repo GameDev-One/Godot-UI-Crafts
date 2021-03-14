@@ -9,7 +9,7 @@ Godot UI Crafts is a collection of useful User Interface crafts for use when cre
 
 ## Godot Versions
 
-- The [`main`](https://github.com/godotengine/godot-demo-projects) branch is compatible with the latest stable Godot version (currently 3.2.3).
+- The [`main`](https://github.com/GameDev-One/Godot-UI-Crafts/tree/main) branch is compatible with the latest stable Godot version (currently 3.2.3).
 
 
 # Importing a project
