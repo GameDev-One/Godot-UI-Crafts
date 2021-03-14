@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/SpellBook.png-05c77758f200858a522cbf36028f99a1.stex"
+path="res://.import/SpellBook.png-8aeeba428095c85559a63b3130518e5d.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://SpellBook.png"
-dest_files=[ "res://.import/SpellBook.png-05c77758f200858a522cbf36028f99a1.stex" ]
+source_file="res://Boilerplate/SpellBook.png"
+dest_files=[ "res://.import/SpellBook.png-8aeeba428095c85559a63b3130518e5d.stex" ]
 
 [params]
 

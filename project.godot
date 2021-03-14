@@ -16,9 +16,9 @@ _global_script_class_icons={
 [application]
 
 config/name="TimeCrafts"
-run/main_scene="res://Main.tscn"
-boot_splash/image="res://SpellBook.png"
-config/icon="res://SpellBook.png"
+run/main_scene="res://Boilerplate/Main.tscn"
+boot_splash/image="res://Boilerplate/SpellBook.png"
+config/icon="res://Boilerplate/SpellBook.png"
 
 [debug]
 

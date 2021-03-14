@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=2]
 
-[ext_resource path="res://DefaultFontHeader.tres" type="DynamicFont" id=2]
-[ext_resource path="res://DefaultFontNormal.tres" type="DynamicFont" id=3]
+[ext_resource path="res://Boilerplate/DefaultFontNormal.tres" type="DynamicFont" id=1]
+[ext_resource path="res://Boilerplate/DefaultFontHeader.tres" type="DynamicFont" id=2]
 
 [node name="Main" type="Control"]
 anchor_right = 1.0
@@ -55,7 +55,7 @@ margin_bottom = 320.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 size_flags_stretch_ratio = 3.0
-custom_fonts/font = ExtResource( 3 )
+custom_fonts/font = ExtResource( 1 )
 text = "Description of the video shown below."
 align = 1
 valign = 1

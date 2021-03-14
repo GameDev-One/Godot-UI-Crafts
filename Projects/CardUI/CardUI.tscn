@@ -1,8 +1,9 @@
 [gd_scene load_steps=5 format=2]
 
-[ext_resource path="res://DefaultFontHeader.tres" type="DynamicFont" id=1]
-[ext_resource path="res://DefaultFontNormal.tres" type="DynamicFont" id=2]
+[ext_resource path="res://Boilerplate/DefaultFontHeader.tres" type="DynamicFont" id=1]
+[ext_resource path="res://Boilerplate/DefaultFontNormal.tres" type="DynamicFont" id=2]
 [ext_resource path="res://Projects/CardUI/card_ui.gd" type="Script" id=3]
+
 
 [sub_resource type="Animation" id=1]
 resource_name = "hover"
