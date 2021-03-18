@@ -1,6 +1,8 @@
 <p align="center"><img src="Boilerplate/SpellBook.svg" width="240">
 
+![alt text](https://img.shields.io/github/repo-size/GameDev-One/Godot-UI-Crafts?style=plastic)
 ![alt text](https://img.shields.io/github/license/GameDev-One/Godot-UI-Crafts?style=plastic)
+![alt text](https://img.shields.io/twitter/follow/gamedevone1?style=social)
 
 # Overview
 Godot UI Crafts is a collection of useful User Interfaces. Each Craft under `Project/` will contain the `Completed/` and `Skeleton/` version of each Craft meant to be used with [Godot Engine](https://godotengine.org), the open source 2D and 3D game engine. 
@@ -37,9 +39,8 @@ Or to download them manually:
 
 ## Useful links
 
-- [Main website](https://godotengine.org)
-- [Source code](https://github.com/godotengine/godot)
-- [Documentation](http://docs.godotengine.org)
+- [Godot Main website](https://godotengine.org)
+- [Godot Documentation](http://docs.godotengine.org)
 - [Community hub](https://godotengine.org/community)
 
 ## License
