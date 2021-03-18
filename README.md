@@ -3,8 +3,7 @@
 ![alt text](https://img.shields.io/github/license/GameDev-One/Godot-UI-Crafts?style=plastic)
 
 # Overview
-Godot UI Crafts is a collection of useful User Interface crafts for use when creating projects in Godot Game Engine. Each folder under `Project/` will contain two projects `Completed/` and `Skeleton/` meant to be used with [Godot Engine](https://godotengine.org), the open source
-2D and 3D game engine. 
+Godot UI Crafts is a collection of useful User Interfaces. Each craft under `Project/` will contain the `Completed/` and `Skeleton/` version of each craft meant to be used with [Godot Engine](https://godotengine.org), the open source 2D and 3D game engine. 
 
 
 ## Godot Versions
@@ -12,14 +11,14 @@ Godot UI Crafts is a collection of useful User Interface crafts for use when cre
 - The [`main`](https://github.com/GameDev-One/Godot-UI-Crafts/tree/main) branch is compatible with the latest stable Godot version (currently 3.2.3).
 
 
-# Importing a project
+# Importing the entire Project
 
-To import a project in the project manager:
+To import the projects in the project manager:
 
 - Clone this repository or [download a ZIP archive](https://github.com/GameDev-One/Godot-UI-Crafts/archive/main.zip).
   - If you've downloaded a ZIP archive, extract it somewhere.
 - Open the Godot project manager and click the **Scan** button on the right.
-- Choose the path to the folder either `Completed/` or `Skeleton/` and select OK.
+- Find `project.godot` in the folder and select OK.
 - The project should now appear in the project manager.
 
 
