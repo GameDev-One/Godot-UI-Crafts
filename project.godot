@@ -15,7 +15,7 @@ _global_script_class_icons={
 
 [application]
 
-config/name="TimeCrafts"
+config/name="Godot UI Crafts"
 run/main_scene="res://Boilerplate/Main.tscn"
 boot_splash/image="res://Boilerplate/SpellBook.png"
 config/icon="res://Boilerplate/SpellBook.png"
