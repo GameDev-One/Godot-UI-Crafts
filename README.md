@@ -3,7 +3,7 @@
 ![alt text](https://img.shields.io/github/license/GameDev-One/Godot-UI-Crafts?style=plastic)
 
 # Overview
-Godot UI Crafts is a collection of useful User Interfaces. Each craft under `Project/` will contain the `Completed/` and `Skeleton/` version of each craft meant to be used with [Godot Engine](https://godotengine.org), the open source 2D and 3D game engine. 
+Godot UI Crafts is a collection of useful User Interfaces. Each Craft under `Project/` will contain the `Completed/` and `Skeleton/` version of each Craft meant to be used with [Godot Engine](https://godotengine.org), the open source 2D and 3D game engine. 
 
 
 ## Godot Versions
@@ -21,6 +21,19 @@ To import the projects in the project manager:
 - Find `project.godot` in the folder and select OK.
 - The project should now appear in the project manager.
 
+# Importing a single Craft
+
+To import a single UI Craft into your pre-exisiting Godot Project:
+
+- Clone the Craft into your Godot Project folder by entering in this command to the CMD line:
+  - git clone -b <Craft-release-name> `https://github.com/GameDev-One/Godot-UI-Crafts.git`
+    - Names of the Craft release can be found under the [Release](https://github.com/GameDev-One/Godot-UI-Crafts/releases) section
+- A `*.tscn` file will be the Craft as a scene with an associtated  `*.gd` script
+
+Or to download them manually:
+- Download the Craft as a ZIP archive from the [Release] section
+- Extract the folder into your Godot Project folder
+- A `*.tscn` file will be the Craft as a scene with an associtated  `*.gd` script
 
 ## Useful links
 
