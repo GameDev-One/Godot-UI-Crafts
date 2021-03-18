@@ -36,7 +36,7 @@ size_flags_horizontal = 3
 
 [node name="Title" type="Label" parent="Bg/ReferenceContainer/ReferenceSubContainer"]
 margin_right = 460.0
-margin_bottom = 181.0
+margin_bottom = 60.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_fonts/font = ExtResource( 2 )
@@ -49,9 +49,9 @@ __meta__ = {
 }
 
 [node name="Contents" type="Label" parent="Bg/ReferenceContainer/ReferenceSubContainer"]
-margin_top = 185.0
+margin_top = 64.0
 margin_right = 460.0
-margin_bottom = 320.0
+margin_bottom = 244.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 size_flags_stretch_ratio = 3.0
@@ -65,7 +65,7 @@ __meta__ = {
 }
 
 [node name="Video" type="VideoPlayer" parent="Bg/ReferenceContainer/ReferenceSubContainer"]
-margin_top = 324.0
+margin_top = 248.0
 margin_right = 460.0
 margin_bottom = 550.0
 rect_min_size = Vector2( 300, 0 )
