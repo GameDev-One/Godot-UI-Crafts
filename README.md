@@ -26,7 +26,7 @@ To import the projects in the project manager:
 To import a single UI Craft into your pre-exisiting Godot Project:
 
 - Clone the Craft into your Godot Project folder by entering in this command to the CMD line:
-  - git clone -b <Craft-release-name> `https://github.com/GameDev-One/Godot-UI-Crafts.git`
+  - git clone -b `<craft-release-name>` `https://github.com/GameDev-One/Godot-UI-Crafts.git`
     - Names of the Craft release can be found under the [Release](https://github.com/GameDev-One/Godot-UI-Crafts/releases) section
 - A `*.tscn` file will be the Craft as a scene with an associtated  `*.gd` script
 
