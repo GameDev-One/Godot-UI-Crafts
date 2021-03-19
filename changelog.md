@@ -6,7 +6,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 ## [Unreleased]
-Nothing so far.
+### Added
+- New project based off of *Megaman Battle Network's* Battlechip system from the Gameboy Advance Era. Base scene has all visual nodes needed for each battlechip.
 
 ---
 ## [1.0.0] - 2021-3-18
