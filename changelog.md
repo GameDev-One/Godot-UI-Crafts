@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 Nothing so far.
 
 ---
-## [1.1.1] - 2021-3-18
+## [1.0.0] - 2021-3-18
 ### Added
 - New changelog will keep track of all changes made to this project.
 
@@ -25,7 +25,8 @@ Nothing so far.
 
 ### Fixed
 - `card_ui.gd` follows Godot Style Guide
+- `qte.gd` follows Godot Style Guide
 
 
-[Unreleased]: https://github.com/GameDev-One/Godot-UI-Crafts/compare/CardUI-Release-1.1...HEAD
-[1.1.0]: https://github.com/GameDev-One/Godot-UI-Crafts/releases/tag/CardUI-Release-1.1
+[Unreleased]: https://github.com/GameDev-One/Godot-UI-Crafts/compare/1.1.1...HEAD
+[1.1.1]: https://github.com/GameDev-One/Godot-UI-Crafts/releases/tag/1.1.1
