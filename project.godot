@@ -12,10 +12,16 @@ _global_script_classes=[ {
 "base": "Resource",
 "class": "BattleChip",
 "language": "GDScript",
-"path": "res://Crafts/MMBNBattleChips/Completed/battlechip_data.gd"
+"path": "res://Crafts/MMBNBattleChips/Completed/BattleChips/battlechip_resource.gd"
+}, {
+"base": "Resource",
+"class": "BattlechipFolder",
+"language": "GDScript",
+"path": "res://Crafts/MMBNBattleChips/Completed/BattlechipFolder/battlechip_folder_resource.gd"
 } ]
 _global_script_class_icons={
-"BattleChip": ""
+"BattleChip": "",
+"BattlechipFolder": ""
 }
 
 [application]

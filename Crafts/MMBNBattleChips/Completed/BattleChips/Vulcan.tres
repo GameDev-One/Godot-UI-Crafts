@@ -4,7 +4,7 @@
 
 [resource]
 script = ExtResource( 1 )
-name = "Cannon"
+name = "Vulcan"
 element = 2
-damage = 30
-ranks = [ "A", "B", "C", "*" ]
+damage = 10
+ranks = [ "T", "U", "V" ]
