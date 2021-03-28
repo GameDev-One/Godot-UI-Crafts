@@ -4,7 +4,7 @@
 
 [resource]
 script = ExtResource( 1 )
-name = "Thunder"
+name = "Splsh Drgn"
 element = 0
-damage = 40
-ranks = [ "B", "S", "*" ]
+damage = 120
+rank = "N"

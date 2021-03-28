@@ -5,6 +5,6 @@
 [resource]
 script = ExtResource( 1 )
 name = "Flash Bomb"
-element = 0
+element = 1
 damage = 20
-ranks = [ "F", "L", "X" ]
+rank = "B"

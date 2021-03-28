@@ -1,0 +1,81 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Crafts/MMBNBattleChips/Completed/BattlechipFolder/battlechip_folder_data_display.gd" type="Script" id=1]
+[ext_resource path="res://Crafts/MMBNBattleChips/Assets/selection_panel.png" type="Texture" id=2]
+[ext_resource path="res://Crafts/MMBNBattleChips/Assets/Fonts/battlechip_normal_font.tres" type="DynamicFont" id=3]
+
+[node name="Battlechip" type="Control"]
+margin_right = 780.0
+margin_bottom = 30.0
+rect_min_size = Vector2( 0, 30 )
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Bg" type="ColorRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+color = Color( 0, 0, 0, 0.505882 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Info" type="HBoxContainer" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Icon" type="TextureRect" parent="Info"]
+margin_right = 34.0
+margin_bottom = 30.0
+size_flags_horizontal = 3
+expand = true
+
+[node name="Title" type="Label" parent="Info"]
+margin_left = 38.0
+margin_right = 667.0
+margin_bottom = 30.0
+size_flags_horizontal = 3
+size_flags_vertical = 1
+size_flags_stretch_ratio = 18.0
+custom_fonts/font = ExtResource( 3 )
+text = "Invalid Chip"
+align = 1
+valign = 1
+
+[node name="Element" type="TextureRect" parent="Info"]
+margin_left = 671.0
+margin_right = 706.0
+margin_bottom = 30.0
+size_flags_horizontal = 3
+expand = true
+
+[node name="Rank" type="Label" parent="Info"]
+margin_left = 710.0
+margin_right = 780.0
+margin_bottom = 30.0
+size_flags_horizontal = 3
+size_flags_vertical = 1
+size_flags_stretch_ratio = 2.0
+custom_fonts/font = ExtResource( 3 )
+text = "?"
+align = 1
+valign = 1
+
+[node name="Selection" type="TextureRect" parent="."]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+texture = ExtResource( 2 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="focus_entered" from="." to="." method="_on_Battlechip_focus_entered"]
+[connection signal="focus_exited" from="." to="." method="_on_Battlechip_focus_exited"]
+[connection signal="gui_input" from="." to="." method="_on_Battlechip_gui_input"]
+[connection signal="mouse_entered" from="." to="." method="_on_Battlechip_mouse_entered"]
+[connection signal="mouse_exited" from="." to="." method="_on_Battlechip_mouse_exited"]
