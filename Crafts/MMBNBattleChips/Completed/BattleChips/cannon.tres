@@ -10,3 +10,4 @@ element = 3
 damage = 30
 full_image = ExtResource( 2 )
 rank = "N"
+description = "Cannon attack to 1 enemy."

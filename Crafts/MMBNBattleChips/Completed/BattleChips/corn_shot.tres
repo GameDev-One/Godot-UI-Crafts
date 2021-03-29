@@ -8,3 +8,4 @@ name = "Corn Shot"
 element = 4
 damage = 50
 rank = "T"
+description = ""

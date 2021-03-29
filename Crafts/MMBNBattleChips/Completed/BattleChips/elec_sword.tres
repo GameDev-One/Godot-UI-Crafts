@@ -8,3 +8,4 @@ name = "Elec Sword"
 element = 1
 damage = 120
 rank = "D"
+description = ""

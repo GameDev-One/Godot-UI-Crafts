@@ -8,3 +8,4 @@ name = "Flash Bomb"
 element = 1
 damage = 20
 rank = "B"
+description = ""

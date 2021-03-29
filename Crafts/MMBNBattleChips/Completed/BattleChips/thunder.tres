@@ -8,3 +8,4 @@ name = "Thunder"
 element = 1
 damage = 40
 rank = "R"
+description = ""

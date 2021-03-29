@@ -10,3 +10,4 @@ element = 2
 damage = 140
 full_image = ExtResource( 2 )
 rank = "D"
+description = ""

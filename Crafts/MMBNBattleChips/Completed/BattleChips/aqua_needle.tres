@@ -8,3 +8,4 @@ name = "Aqua Needle"
 element = 0
 damage = 40
 rank = "E"
+description = "Target 3 needles at enemy."

@@ -8,3 +8,4 @@ name = "Vulcan"
 element = 3
 damage = 10
 rank = "N"
+description = ""

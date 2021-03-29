@@ -8,3 +8,4 @@ name = "Sword"
 element = 3
 damage = 80
 rank = "D"
+description = ""

@@ -8,3 +8,4 @@ name = "Bmboo Swrd"
 element = 4
 damage = 150
 rank = "D"
+description = ""

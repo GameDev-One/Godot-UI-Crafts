@@ -8,3 +8,4 @@ name = "Burn Square"
 element = 2
 damage = 100
 rank = "E"
+description = ""

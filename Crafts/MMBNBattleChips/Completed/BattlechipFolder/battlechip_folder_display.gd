@@ -2,7 +2,8 @@ extends HBoxContainer
 
 
 onready var folder: BattlechipFolder = preload("res://Crafts/MMBNBattleChips/Completed/BattlechipFolder/battlechip_folder.tres")
-onready var battlechip_info = $BattleChipInfo
+onready var battlechip_info = $Info/BattleChip
+onready var battlechip_desc = $Info/Additional/Margin/Description
 onready var battlechips: VBoxContainer = $VBoxContainer/List/Battlechips
 
 
@@ -25,6 +26,7 @@ func update_battlechip_data_display(battlechip_index: int):
 	var battlechip_data: BattleChip = folder.battlechips[battlechip_index]
 	battlechip_display.display_battlechip(battlechip_data)
 	battlechip_info.display_battlechip(battlechip_data)
+	battlechip_desc.text = battlechip_data.description
 
 
 func _on_battlechips_changed(indexes: Array):

@@ -8,3 +8,4 @@ name = "Fire Burn"
 element = 2
 damage = 70
 rank = "N"
+description = ""
