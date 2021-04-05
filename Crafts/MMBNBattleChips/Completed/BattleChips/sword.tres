@@ -1,11 +1,13 @@
-[gd_resource type="Resource" load_steps=2 format=2]
+[gd_resource type="Resource" load_steps=3 format=2]
 
 [ext_resource path="res://Crafts/MMBNBattleChips/Completed/BattleChips/battlechip_resource.gd" type="Script" id=1]
+[ext_resource path="res://Crafts/MMBNBattleChips/Assets/Icons/sword.png" type="Texture" id=2]
 
 [resource]
 script = ExtResource( 1 )
 name = "Sword"
 element = 3
 damage = 80
+icon_image = ExtResource( 2 )
 rank = "D"
 description = ""

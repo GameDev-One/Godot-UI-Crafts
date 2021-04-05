@@ -1,10 +1,10 @@
 extends Control
 
 
-onready var title: Label = $Title
+onready var title: Label = $Frame/Title
 onready var element: TextureRect = $Element
-onready var rank: Label = $Rank
-onready var damage: Label = $Damage
+onready var rank: Label = $Frame/Rank
+onready var damage: Label = $Frame/Damage
 onready var image: TextureRect = $Image
 
 func display_battlechip(battlechip: BattleChip):

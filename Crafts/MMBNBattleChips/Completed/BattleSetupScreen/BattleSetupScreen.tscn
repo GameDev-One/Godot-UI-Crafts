@@ -1,0 +1,285 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://Crafts/MMBNBattleChips/Assets/battle_panel.png" type="Texture" id=1]
+[ext_resource path="res://Crafts/MMBNBattleChips/Completed/battlechip_template.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Crafts/MMBNBattleChips/Completed/BattleSetupScreen/BattleSetupScreen.gd" type="Script" id=3]
+[ext_resource path="res://Crafts/MMBNBattleChips/Assets/Fonts/battlechip_normal_font.tres" type="DynamicFont" id=4]
+[ext_resource path="res://Crafts/MMBNBattleChips/Assets/Fonts/battlechip_sub_normal_font.tres" type="DynamicFont" id=5]
+
+[node name="BattleSetupScreen" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="BattleChipInfo" parent="." instance=ExtResource( 2 )]
+margin_right = 270.0
+margin_bottom = 400.0
+
+[node name="BattlechipSelector" type="TextureRect" parent="."]
+margin_right = 360.0
+margin_bottom = 600.0
+rect_min_size = Vector2( 270, 460 )
+texture = ExtResource( 1 )
+expand = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="OKBtn" type="Button" parent="BattlechipSelector"]
+margin_left = 299.0
+margin_top = 459.0
+margin_right = 346.0
+margin_bottom = 526.0
+custom_fonts/font = ExtResource( 4 )
+custom_colors/font_color = Color( 0.992157, 1, 0.0235294, 1 )
+custom_colors/font_color_hover = Color( 1, 1, 1, 1 )
+custom_colors/font_color_pressed = Color( 0, 0.505882, 1, 1 )
+text = "OK"
+flat = true
+
+[node name="Hand" type="GridContainer" parent="BattlechipSelector"]
+anchor_left = 0.0416667
+anchor_top = 0.683333
+anchor_right = 0.783333
+anchor_bottom = 0.97
+custom_constants/vseparation = 53
+columns = 5
+__meta__ = {
+"_edit_use_anchors_": true
+}
+
+[node name="Battlechip1" type="TextureButton" parent="BattlechipSelector/Hand"]
+margin_right = 50.0
+margin_bottom = 45.0
+rect_min_size = Vector2( 0, 45 )
+size_flags_horizontal = 3
+size_flags_vertical = 0
+expand = true
+
+[node name="Rank" type="Label" parent="BattlechipSelector/Hand/Battlechip1"]
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = 3.0
+margin_bottom = 29.0
+custom_fonts/font = ExtResource( 5 )
+text = "?"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Battlechip2" type="TextureButton" parent="BattlechipSelector/Hand"]
+margin_left = 54.0
+margin_right = 104.0
+margin_bottom = 45.0
+rect_min_size = Vector2( 0, 45 )
+size_flags_horizontal = 3
+size_flags_vertical = 0
+expand = true
+
+[node name="Rank" type="Label" parent="BattlechipSelector/Hand/Battlechip2"]
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = 3.0
+margin_bottom = 29.0
+custom_fonts/font = ExtResource( 5 )
+text = "?"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Battlechip3" type="TextureButton" parent="BattlechipSelector/Hand"]
+margin_left = 108.0
+margin_right = 158.0
+margin_bottom = 45.0
+rect_min_size = Vector2( 0, 45 )
+size_flags_horizontal = 3
+size_flags_vertical = 0
+expand = true
+
+[node name="Rank" type="Label" parent="BattlechipSelector/Hand/Battlechip3"]
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = 3.0
+margin_bottom = 29.0
+custom_fonts/font = ExtResource( 5 )
+text = "?"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Battlechip4" type="TextureButton" parent="BattlechipSelector/Hand"]
+margin_left = 162.0
+margin_right = 212.0
+margin_bottom = 45.0
+rect_min_size = Vector2( 0, 45 )
+size_flags_horizontal = 3
+size_flags_vertical = 0
+expand = true
+
+[node name="Rank" type="Label" parent="BattlechipSelector/Hand/Battlechip4"]
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = 3.0
+margin_bottom = 29.0
+custom_fonts/font = ExtResource( 5 )
+text = "?"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Battlechip5" type="TextureButton" parent="BattlechipSelector/Hand"]
+margin_left = 216.0
+margin_right = 266.0
+margin_bottom = 45.0
+rect_min_size = Vector2( 0, 45 )
+size_flags_horizontal = 3
+size_flags_vertical = 0
+expand = true
+
+[node name="Rank" type="Label" parent="BattlechipSelector/Hand/Battlechip5"]
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = 3.0
+margin_bottom = 29.0
+custom_fonts/font = ExtResource( 5 )
+text = "?"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Battlechip6" type="TextureButton" parent="BattlechipSelector/Hand"]
+margin_top = 98.0
+margin_right = 50.0
+margin_bottom = 143.0
+rect_min_size = Vector2( 0, 45 )
+size_flags_horizontal = 3
+size_flags_vertical = 0
+expand = true
+
+[node name="Rank" type="Label" parent="BattlechipSelector/Hand/Battlechip6"]
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = 3.0
+margin_bottom = 29.0
+custom_fonts/font = ExtResource( 5 )
+text = "?"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Battlechip7" type="TextureButton" parent="BattlechipSelector/Hand"]
+margin_left = 54.0
+margin_top = 98.0
+margin_right = 104.0
+margin_bottom = 143.0
+rect_min_size = Vector2( 0, 45 )
+size_flags_horizontal = 3
+size_flags_vertical = 0
+expand = true
+
+[node name="Rank" type="Label" parent="BattlechipSelector/Hand/Battlechip7"]
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = 3.0
+margin_bottom = 29.0
+custom_fonts/font = ExtResource( 5 )
+text = "?"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Battlechip8" type="TextureButton" parent="BattlechipSelector/Hand"]
+margin_left = 108.0
+margin_top = 98.0
+margin_right = 158.0
+margin_bottom = 143.0
+rect_min_size = Vector2( 0, 45 )
+size_flags_horizontal = 3
+size_flags_vertical = 0
+expand = true
+
+[node name="Rank" type="Label" parent="BattlechipSelector/Hand/Battlechip8"]
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = 3.0
+margin_bottom = 29.0
+custom_fonts/font = ExtResource( 5 )
+text = "?"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Battlechip9" type="TextureButton" parent="BattlechipSelector/Hand"]
+margin_left = 162.0
+margin_top = 98.0
+margin_right = 212.0
+margin_bottom = 143.0
+rect_min_size = Vector2( 0, 45 )
+size_flags_horizontal = 3
+size_flags_vertical = 0
+expand = true
+
+[node name="Rank" type="Label" parent="BattlechipSelector/Hand/Battlechip9"]
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = 3.0
+margin_bottom = 29.0
+custom_fonts/font = ExtResource( 5 )
+text = "?"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Battlechip10" type="TextureButton" parent="BattlechipSelector/Hand"]
+margin_left = 216.0
+margin_top = 98.0
+margin_right = 266.0
+margin_bottom = 143.0
+rect_min_size = Vector2( 0, 45 )
+size_flags_horizontal = 3
+size_flags_vertical = 0
+expand = true
+
+[node name="Rank" type="Label" parent="BattlechipSelector/Hand/Battlechip10"]
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = 3.0
+margin_bottom = 29.0
+custom_fonts/font = ExtResource( 5 )
+text = "?"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
